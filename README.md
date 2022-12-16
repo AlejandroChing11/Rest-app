@@ -7,6 +7,6 @@ Node -v 18.19.2
 Spooncacular api (https://spoonacular.com/food-api/docs#Get-Random-Recipes)
 React.js - TypeScript.
 
-Live:
+Live: https://alejandroching11.github.io/Rest-app/
 
 
