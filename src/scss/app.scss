@@ -1,0 +1,40 @@
+@font-face {
+    font-family: Monster-Clubhouse;
+    src: url("../assets/fonts/Monster\ Clubhouse.ttf");
+}
+
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap");
+
+/* root  */
+:root {
+    --color1: #425966;
+    --color2: #d84a4a;
+    --color3: #ffffff;
+
+    /* fonts */
+    --font: Monster-Clubhouse;
+}
+
+.app {
+    position: relative;
+}
+
+body {
+
+
+    &::-webkit-scrollbar {
+        width: 5px;
+    }
+
+    &::-webkit-scrollbar-track {
+        background: var(--color1);
+    }
+
+    &::-webkit-scrollbar-thumb {
+        background: var(--color2);
+        border-radius: 3px;
+
+        &:hover {
+            background-color: var(--color1);
+        }
+    }}

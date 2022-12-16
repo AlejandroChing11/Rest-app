@@ -1,0 +1,122 @@
+.head__conted {
+    position: relative;
+    width: 100%;
+
+  height: max-content;
+
+    &--items {
+        position: relative;
+
+        display: flex;
+        align-items: flex-start;
+        flex-direction: column;
+
+        justify-content: center;
+
+        .img__conted {
+            width: 100%;
+
+            img {
+                width: 100%;
+            }
+        }
+
+        &--text {
+            position: absolute;
+            display: flex;
+            flex-direction: column;
+
+            margin-left: 19%;
+            
+
+            span {
+                color: white;
+            }
+
+            span:nth-child(1) {
+                font-size: 5.625vw;
+                text-transform: capitalize;
+            }
+
+            span:nth-child(2) {
+                font-size: 5vw;
+                font-family: var(--font);
+                margin-top: -1.3rem;
+            }
+
+        }
+    }
+
+
+    /* tabletas */
+    @media (max-width: 768px) {
+        &--items {
+            padding-top: 4rem;
+            overflow: hidden;
+       
+            
+            .img__conted {
+                img {
+                    width: 100%;
+                }
+            }
+    
+            &--text {
+
+                margin-left: 19%;
+                
+                span:nth-child(1) {
+                    font-size: 3.975rem;
+                    text-transform: capitalize;
+                }
+    
+                span:nth-child(2) {
+                    font-size: 3.7rem;
+                    font-family: var(--font);
+                    margin-top: -1.3rem;
+                }
+    
+            }
+        }
+    
+
+        /* movile */
+        @media (max-width:460px) {
+
+            &--items {
+                padding-top: 4rem;
+                overflow: hidden;
+           
+                
+                .img__conted {
+                    height: 12.5rem;
+
+                    img {
+                        width: 170%;
+                        transform: translateX( -7rem);
+                    }
+                }
+        
+                &--text {
+                    margin-left: 12%;
+    
+                    span:nth-child(1) {
+                        font-size: 2.925rem;
+                        text-transform: capitalize;
+                    }
+        
+                    span:nth-child(2) {
+                        font-size: 2.4rem;
+                        font-family: var(--font);
+                        margin-top: -1.3rem;
+                    }
+        
+                }
+            }
+        }
+
+    }
+
+
+
+}
