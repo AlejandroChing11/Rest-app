@@ -9,6 +9,7 @@ React.js - TypeScript.
 
 Live: https://alejandroching11.github.io/Rest-app/
 
-image.png
+
+
 
 
