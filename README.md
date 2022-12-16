@@ -9,6 +9,16 @@ React.js - TypeScript.
 
 Live: https://alejandroching11.github.io/Rest-app/
 
+OUTPUT:
+
+
+https://github.com/AlejandroChing11/Rest-app/blob/main/Captura%20de%20pantalla%202022-12-16%20124448.png 
+
+
+https://github.com/AlejandroChing11/Rest-app/blob/main/Captura%20de%20pantalla%202022-12-16%20124524.png 
+
+
+
 
 
 
